@@ -1,2 +1,2 @@
-# it-zego.github.io
+# funvideo.github.io
 GitHub Pages
