@@ -1,0 +1,307 @@
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url(' fonts/IRANSansWeb(FaNum)_Medium.eot');
+	src: url(' fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url(' fonts/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url(' fonts/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url(' fonts/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: joomYekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/iranyekanweblight.eot');
+	src: url('fonts/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/iranyekanweblight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/iranyekanweblight.ttf') format('truetype');
+}
+@font-face {
+	font-family: joomYekanb;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/iranyekanwebregular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/iranyekanwebregular.ttf') format('truetype');
+}
+.Result {
+    right: auto;
+    left: 0;
+}
+.Result:before {
+    left: 2rem;
+    right: auto;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: joomYekanb;
+}
+webkit-input-placeholder-:: {
+font-family: joomYekan;
+}
+body{
+font-family: joomYekan;
+}
+.fa-chevron-left:before {
+    content: "\f054";
+}
+.fa-chevron-right:before {
+	content: "\f053";
+}
+.TpTvSw .Title, .TpTvSw .ListPOpt, .TPost.Single .Title, .TPost.Single .ListPOpt{margin-right: 0;margin-left: 1rem;}
+.MovieListSldCn,.MovieListTopCn,.owl-stage-outer{direction:ltr;}
+.TPMvCn {direction:rtl;}
+ul,ol{margin-left:0;margin-right:.9370rem;}
+caption,td,th{text-align:right;}
+.AF.Rows>*{float:right;}
+.no-flexbox.no-flexboxlegacy.no-flexboxtweener .AX.Rows>*{float:right;}
+.no-flexbox.flexboxlegacy.no-flexboxtweener .AX.Rows>*{float:right;}
+.Form-Icon.Right input,.Form-Icon.Right textarea{padding-right:.9370rem;padding-left:2.5rem;}
+.Form-Icon.Right input+i,.Form-Icon.Right textarea+i{right:auto;left:0;}
+.Form-Icon input,.Form-Icon textarea{padding-left:0;padding-right:2.5rem;}
+.Form-Icon input+i,.Form-Icon textarea+i{left:auto;right:0;}
+.Form-Select label:before{right:auto;left:10px;margin-left:0;}
+.Form-Select select{left:auto;right:0;}
+.Form-Checkbox i:before,.Form-Radio i:before{margin-right:0;margin-left:10px;}
+[type='checkbox']+label,[type='radio']+label{margin-right:5px;margin-left:.625rem;}
+.MenuBtn{right:auto;left:1.25rem;}
+.Rght{text-align:left;}
+.Menu,.Search,.Login{text-align:right;}
+.Menu li[class*="AAIco-"]:before,.Menu li[class*="fa-"]:before,.menu li[class*="AAIco-"]:before,.menu li[class*="fa-"]:before{left:auto;right:1rem;}
+.Menu li[class*="AAIco-"]>a,.Menu li[class*="fa-"]>a,.menu li[class*="AAIco-"]>a,.menu li[class*="fa-"]>a{padding-left:0;padding-right:2.5rem;}
+.menu-item-has-children>i:before{right:auto;left:.2rem;}
+.Menu .menu-item-has-children>a,.widget_nav_menu .menu-item-has-children>a{padding-right:16px;padding-left:1.5rem;}
+.Search .Form-Icon button{left:auto;right:0;}
+.Result{border-radius:0 0 10px 10px;}
+.TPost .Image figure img{left:auto;right:0;}
+.TpMvPlay:after{left:auto;right:0;}
+p.Info>span{margin-right:0;margin-left:.5rem;}
+p.Info>span:before{margin-right:0;margin-left:.2rem;}
+p.Info>span:last-child{margin-left:0;}
+.TPost.A{padding-left:0;padding-right:65px;}
+.TPost.A .Image{left:auto;right:0;}
+.TPost .Top{left:auto;right:-5px;border-radius:0 3px 0 0;}
+.TPost .Top:before,.TPost .Top:after{right:auto;left:-5px;border-right: none;border-left:5px solid transparent;}
+.TPost .Top>i:before{border-right:11px solid transparent;float:left;}
+.TPost .Top>i:after{border-left:11px solid transparent;float:right;}
+.TPost.B .Title{border-radius:0 0 10px 10px;}
+.qtip-pos-bl .TPMvCn{border-bottom-right-radius:0;}
+.qtip-pos-br .TPMvCn{border-bottom-left-radius:0;}
+.TPost.C .TPMvCn .Title,.TPMvCn .Title{text-align:right;}
+.TPMvCn .Description p[class]>i{margin-left:0;margin-right:3px;}
+.TPMvCn>.Button.TPlay{margin-right:0;margin-left:5px;}
+.Description p[class]:before{margin-right:0;margin-left:.4rem;}
+.Cast a{margin-right:0;margin-left:10px;}
+.Cast img{margin-right:0;margin-left:10px;}
+.Button.TPlay:before{margin-right:0;margin-left:.5em;}
+section>.Top>h1,section>.Top>.Title{margin-right:0;margin-left:.5rem;}
+section>.Top>.Button{margin-right:0;margin-left:.5rem;}
+section>.Top>.Button:last-child{margin-left:0;}
+.MovieListSld .owl-controls{rght:auto;left:1.25rem;}
+.MovieListSld .owl-controls .owl-page{margin-left:0;margin-right:10px;}
+.TPostBg,.TPostBg img,.TPostBg:before,.TPostBg:after{left:auto;right:0;}
+.TPost.Single .SubTitle .Qlty{margin-right:0;margin-left:.3rem;}
+.VotesCn{padding-left:0;padding-right:50px;}
+.VotesCn .Prct{left:auto;right:0;}
+.VotesCn .post-ratings img{left:auto;right:0;}
+.VotesCn .post-ratings img+img{left:auto;right:18px;}
+.VotesCn .post-ratings img+img+img{left:auto;right:36px;}
+.VotesCn .post-ratings img+img+img+img{left:auto;right:54px;}
+.VotesCn .post-ratings img+img+img+img+img{left:auto;right:72px;}
+.TPlayer iframe,.TPlayer video,.TPlayer object,.TPlayer embed{left:auto;right:0;}
+.TPlayer .Title{left:auto;right:0;border-radius:0 10px 0 10px;}
+.lgtbx-lnk{right:auto;left:10px;}
+.lgtbx-on .lgtbx-lnk{right:auto;left:-50px;}
+.TPTblCn th:first-child,.TPTblCn td:first-child{padding-left:0;}
+.TPTblCn span img{margin-right:0;margin-left:5px;}
+.TPTblCn td:first-child{border-radius:0 50px 50px 0;}
+.TPTblCn td:last-child{border-radius:50px 0 0 50px;}
+#comments>.Comment.Wrt{padding-right:0;}
+.Comment.Wrt figure:before{right:auto;left:-20px;border-left:10px solid #fff;}
+.Comment{padding-left:0;padding-right:70px;}
+.CommentsList li li .Comment{margin-left:0;margin-right:20px;}
+.Comment>figure{left:auto;right:0;}
+.comment-reply-link:before{margin-right:0;margin-left:5px;}
+.InfoList>li{padding-left:0;padding-right:1.2rem;}
+.InfoList>li:before{left:auto;right:0;}
+.MovieTabNav .Lnk{margin-right:0;margin-left:1.25rem;}
+.MovieTabNav .Lnk:last-child{margin-left:0;}
+.MovieTabNav .Lnk:before{margin-right:0;margin-left:.5rem;}
+.MovieTabNav .Lnk.on:after{border-right:5px solid transparent;border-left:5px solid transparent;}
+.ListCast figure>span>img{left:auto;right:0;}
+.ListVids figure img,.ListGall figure img{left:auto;right:0;}
+.TPTblCn td.MvTbImg{padding-left:0;}
+.TPTblCn td.MvTbImg .TpTv{left:auto;right:-8px;}
+.TPTblCn td.MvTbTtl{padding-left:0;padding-right:10px;}
+.TPTblCn td.MvTbPly{padding-left:0;padding-right:10px;}
+.TPTblCnMvs th:first-child,.TPTblCnMvs th:nth-child(2),.TPTblCnMvs td:first-child,.TPTblCnMvs td:nth-child(2),.TPTblCnMvs td:nth-child(3){text-align:right;}
+.SearchMovies .Form-Select label:before{margin-left:0;}
+.SearchMovies .FilterRadio label{float:right;}
+.SearchMovies .FilterRadio label:first-child span:before{border-radius:0 1rem 1rem 0;}
+.SearchMovies .FilterRadio label:last-child span:before{border-radius:1rem 0 0 1rem;}
+.SearchMovies .FilterRadio span:before{left:auto;right:0;}
+.SearchMovies .FilterRadio label input{left:auto;right:0;}
+.TPlayerNv>li.Button{text-align:right;float:right;margin-right:0;margin-left:.5rem;}
+.TPlayerNv>li.Button:last-child{margin-left:0;}
+.NoBrdRa .TPTblCn td:first-child{border-radius:0 3px 3px 0;}
+.NoBrdRa .TPTblCn td:last-child{border-radius:0 3px 3px 0;}
+.TPost.C .TPMvCn .Title .TpTv{margin-left:0;margin-right:.2rem;}
+.TPost .Image figure figcaption{border-radius:0 0 10px 10px;}
+.NoBrdRa .TPost .Image figure figcaption{border-radius:0 0 3px 3px;}
+.TPost.B .Image .TpTv,.TPost.C .Image .TpTv{left:auto;right:10px;}
+.Wdgt.AABox .Title>i:before{right:auto;left:1.25rem;}
+.TPost.Single.Episode header{padding-right:0;}
+.TPost.Single.Episode footer{margin-right:0;}
+.Select-Season>div{padding:.5rem 1rem .5rem 2rem;}
+.Select-Season>div>i{right:auto;left:1rem;}
+.Select-Season>nav>ul>li:hover{border-right:3px solid currentColor;border-left: none;}
+.Season-EpisodesCn{margin-right:0;margin-left:-10px;}
+.Season-EpisodesCn .TPostMv{padding-left:0;padding-right:10px;}
+.Season-Episodes{margin-left:0;margin-right:-10px;}
+.Season-EpisodesCn .SeNvP{left:auto;right:10px;border-radius:30px 0 0 30px;}
+.Season-EpisodesCn .SeNvR{right:auto;left:0;text-align:left;border-radius:0 30px 30px 0;}
+.alignleft{float:right;margin-right:0;margin-left:.9370rem;}
+.alignright{float:left;margin-left:0;margin-right:.9370rem;}
+.Wdgt:before{left:auto;right:0;}
+.Wdgt>.Title:before,.Wdgt>.Title:after{left:auto;right:0;}
+.Wdgt>.Title:before{right:auto;left:0;}
+.widget_categories>ul{padding-right:0;padding-left:5px;}
+.widget_categories>ul li{text-align:left;}
+.widget_categories>ul li a{text-align:right;padding-right:1rem;padding-left:3rem;}
+.widget_nav_menu>div>ul{padding-right:0;}
+.widget_nav_menu>div>ul>li:before{left:auto;right:1.25rem;}
+.widget_nav_menu>div>ul>li>i:before{right:auto;left:1.25rem;}
+.widget_nav_menu>div>ul>li>a{padding-right:2.9rem;padding-left:2rem;}
+.widget_nav_menu>div>ul .sub-menu{padding-right:0;margin-right:0;}
+.widget_nav_menu>div>ul .sub-menu>li{float:right;}
+.SearchMovies label:before{margin-right:0;margin-left:.5rem;}
+.SearchMovies .sol-input-container input[type="text"]{padding-right:1rem;padding-left:3rem;}
+.SearchMovies .sol-label:before{margin-left:0;}
+.SearchMovies .sol-label-text{padding-right:0;}
+.SearchMovies .sol-caret:before{right:auto;left:0;}
+.SearchMovies .sol-selection-container:before,.trsrcbx:before{border-right:5px solid transparent;border-left:5px solid transparent;right:auto;left:1rem;}
+.SearchMovies .sol-selected-display-item,.trsrclst>li{padding:0 .7rem 0 1.5rem;margin-right:0;margin-left:5px;}
+.SearchMovies span.sol-quick-delete,.trsrclst .tr-delete{text-align:left;padding-right:0;padding-left:.5rem;}
+.widget_search .search-form{padding-right:0;padding-left:110px;}
+.widget_search .search-submit{right:auto;left:0;}
+.trsrcbx label button{text-align:right;}
+.trsrcbx label:before{left:auto;right:0;}
+.owl-carousel .owl-item{float:right;}
+.owl-carousel.owl-rtl{direction:ltr;}
+.owl-carousel.owl-rtl .owl-item{float:left;}
+.owl-carousel .owl-video-play-icon{left:auto;right:50%;margin-left:0;margin-right:-40px;}
+.qtip{left:auto;right:-28000px;}
+.wp-pagenavi a:after,.wp-pagenavi span:after{left:auto;right:0;}
+.sol-container.sol-active .sol-selection-container,.trsrcbx{right:inherit;}
+.sol-action-buttons .sol-select-all{float:right;}
+.sol-action-buttons .sol-deselect-all{float:left;}
+.sol-label-text{padding-left:0;padding-right:20px;}
+.sol-no-results, .sol-loading-data{padding:5px 0 5px 0;}
+.percircle:after{left:auto;right:0;}
+.lgtbx{left:auto;right:0;}
+.close{float:left;}
+@media screen and (min-width:34em){
+    .BF.Rows>*{float:right;}
+    .no-flexbox.no-flexboxlegacy.no-flexboxtweener .BX.Rows>*{float:right;}
+    .no-flexbox.flexboxlegacy.no-flexboxtweener .BX.Rows>*{float:right;}
+    .MovieTabNav .Lnk{margin-right:0;margin-left:2.5rem;}
+}
+@media screen and (min-width:48em){
+    .CF.Rows>*{float:right;}
+    .no-flexbox.no-flexboxlegacy.no-flexboxtweener .CX.Rows>*{float:right;}
+    .no-flexbox.flexboxlegacy.no-flexboxtweener .CX.Rows>*{float:right;}
+    .TPost.Single header{padding-left:0;padding-right:200px;}
+    .TPost.Single .Image{left:auto;right:0;}
+    .TPost.Single .Info{float:right;}
+    .VotesCn{float:right;padding-left:20px;border-left:1px solid transparent;margin-right:0;margin-left:20px;border-left-color: rgba(255,255,255,.2);border-right:none;}
+    .ListPOpt{float:left;}
+}
+@media screen and (min-width:62em){
+    .no-flexbox.no-flexboxlegacy.no-flexboxtweener .DX.Rows>*{float:right;}
+    .no-flexbox.flexboxlegacy.no-flexboxtweener .DX.Rows>*{float:right;}
+    .Logo,.MnBr .Menu,.MnBr .Menu>ul>li{float:right;}
+    .Logo{margin-right:0;margin-left:2rem;}
+    .Menu .sub-menu,.widget_nav_menu .sub-menu{border-radius:0 0 10px 10px;}
+    .Menu .sub-menu{left:auto;right:1rem;}
+    .Menu .sub-menu>li{float:right !important;}
+    .Menu>ul>li.menu-item-has-children>a:before{right:auto;left:1.5rem;}
+    .Menu>ul>li.menu-item-has-children:after,.widget_nav_menu>div>ul>li.menu-item-has-children:after{left:auto;right:2rem;border-right:5px solid transparent;border-left:5px solid transparent;}
+    .Login{float:left;margin-left:0;margin-right:10px;}
+    .ListSocial{float:left;}
+    .TpRwCont>main{padding-right:0;padding-left:1.25rem;}
+    .TpRwCont.TpLCol{direction:ltr;}
+    .TpRwCont.TpLCol>main,.TpRwCont.TpLCol>aside{direction:rtl;}
+    .TpRwCont.TpLCol>main{padding-left:0;padding-right:1.25rem;}
+    .TPost.D .TPMvCn{left:auto;right:0;border-radius:0 10px 10px 0;}
+    .TPost.D .Image:before{left:auto;right:0;}
+    .TPost.C .TPMvCn{left:auto;right:80%;}
+    .TPost.C .TPMvCn:before{left:auto;right:-9px;border-right: none;border-left:10px solid #fff;}
+    .TPost.Single footer{margin-left:0;margin-right:200px;}
+    .TPost.Single.Episode header .Title,.TPost.Single.Episode header .SubTitle,.TPost.Single.Seasons header .Title,.TPost.Single.Seasons header .SubTitle{padding-right:0;padding-left:160px;}
+    .TPost.Single.Episode .Select-Season,.TPost.Single.Seasons .Select-Season{right:auto;left:0;}
+    .TPost.Single.Episode header .Title, .TPost.Single.Episode header .SubTitle, .TPost.Single.Seasons header .Title, .TPost.Single.Seasons header .SubTitle, .TpTvSw{padding-right: 0;padding-left:170px;}
+    .TPost.Single.Episode .Select-Season, .TPost.Single.Seasons .Select-Season{top: .1rem;}
+}
+@media screen and (min-width:70em){
+    .EF.Rows>*{float:right;}
+    .no-flexbox.no-flexboxlegacy.no-flexboxtweener .EX.Rows>*{float:right;}
+    .no-flexbox.flexboxlegacy.no-flexboxtweener .EX.Rows>*{float:right;}
+    body:not(.FullW) .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n-1) .TPMvCn,body:not(.FullW) .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n) .TPMvCn{right:auto;left:80%;}
+    body:not(.FullW) .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n-1) .TPMvCn:before,body:not(.FullW) .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+    body:not(.FullW) .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n-1) .TPMvCn,body:not(.FullW) .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n) .TPMvCn{right:auto;left:80%;}
+    body:not(.FullW) .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n-1) .TPMvCn:before,body:not(.FullW) .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+}
+@media screen and (max-width:62em){
+    .Header .Rght{left:auto;right:-270px;}
+    .Header .Rght:before{left:auto;right:0;}
+    .Logo{padding-right:0;padding-left:4rem;}
+    .sub-menu>li{float:right;}
+    .sub-menu>li>a{padding-right:16px;padding-left:.5rem;}
+    .menu-item-has-children>i:before{right:auto;left:1rem;}
+    .MenuBtnClose{left:auto;right:0;}
+    .Tp-Wp.show .Header .Rght{left:auto;right:0;}
+    .Tp-Wp.show .Header .Rght:before{left:auto;right:0;}
+    .Footer .Logo{padding-left:0;}
+    .TPost.D .Image img{border-radius:10px 10px 0 0;}
+    .MovieListSldCn:after,.MovieListSldCn:before{left:auto;right:0;}
+    .widget_categories>ul>li{float:right;margin-right:0;margin-left:5px;}
+}
+@media screen and (max-width:24em){
+    .Header .Rght{left:auto;right:-235px;}
+    .widget_categories>ul>li>a{padding:0 10px 0 0;}
+}
+@media screen and (min-width:48em) and (max-width:62em){
+    .widget_categories>ul>li{float:right;margin-right:0;margin-left:5px;}
+}
+@media screen and (min-width:62em) and (max-width:70em){
+    .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(4n-1) .TPMvCn,.TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(4n) .TPMvCn{right:auto;left:80%;}
+    .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(4n-1) .TPMvCn:before,.TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(4n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+    .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(5n-1) .TPMvCn,.TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(5n) .TPMvCn{right:auto;left:80%;}
+    .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(5n-1) .TPMvCn:before,.TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(5n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+}
+@media screen and (min-width:70em) and (max-width:83em){
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n-1) .TPMvCn,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(5n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n-1) .TPMvCn,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(7n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+}
+@media screen and (min-width:83em) and (max-width:90em){
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(6n-1) .TPMvCn,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(6n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(6n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(6n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(8n-1) .TPMvCn,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(8n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(8n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(8n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+}
+@media screen and (min-width:90em) and (max-width:100em){
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(7n-1) .TPMvCn,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(7n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(7n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(7n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(9n-1) .TPMvCn,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(9n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(9n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(9n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+}
+@media screen and (min-width:100em){
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(8n-1) .TPMvCn,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(8n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(8n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol:not(.NoSdbr) .MovieList>li:nth-child(8n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(10n-1) .TPMvCn,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(10n) .TPMvCn{right:auto;left:80%;}
+    .FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(10n-1) .TPMvCn:before,.FullW .TpRwCont.TpLCol.NoSdbr .MovieList>li:nth-child(10n) .TPMvCn:before{border-left:0;border-right:10px solid #fff;right:auto;left:-9px;}
+}
